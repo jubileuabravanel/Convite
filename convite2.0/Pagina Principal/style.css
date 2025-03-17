@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.conteudo {
+    position: fixed;
+}
+
+.bolo {
+    padding: 10px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 75vh;
+    left: 10px;
+    padding: 20px;
+}
+
+.frases {
+    position: relative;
+    bottom: 76vh;
+    left: 10px;
+    padding: 15px;
+}
+
+.frases h2 {
+    color: deeppink;
+}
+
+.frases p {
+    color: white;
+}
+
+
+
