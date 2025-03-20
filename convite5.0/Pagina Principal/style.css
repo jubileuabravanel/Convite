@@ -1,0 +1,270 @@
+body {
+    padding: 20px;
+    margin: 0;
+    background: #ff92d0;
+}
+
+.conteudo {
+    display: flex;
+}
+
+.esquerda {
+    max-width: 50%;
+    width: 50%;
+}
+
+.direita {
+    max-width: 50%;
+    width: 50%;
+}
+
+/*esquerda*/
+
+.festa {
+    position: fixed;
+    width: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.tudo {
+    position: fixed;
+    width: auto;
+    display: block;
+    padding: 2%;
+}
+
+
+
+/*direita*/
+
+label {
+    margin-bottom: 3px;
+    display: block;
+    color: white;
+}
+
+.dir {
+    color: white;
+    background-color: #131516;
+    max-width: 64%;
+    padding: 5vh;
+    border-radius: 5px;
+}
+
+.titulo {
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+
+.titulo, input[class="tit"] {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.ini {
+    display: flex;
+    position: relative;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.ini, input[class="in"],
+input[class="fm"] {
+    gap: 20px;
+    width: 100%;
+    width: 288px;
+    box-sizing: border-box;
+}
+
+.escolha {
+    margin-top: 10px;
+}
+
+.local {
+    margin-top: 10px;
+}
+
+.local, input[class="loc"] {
+    width: 100%;
+}
+
+.descricao {
+    margin-top: 10px;
+}
+
+.descricao input[class="desc"] {
+    border: 2px solid white;
+    width: 100%;
+    height: 60px;
+    border-radius: 8px;
+}
+
+/*inicio dos temas*/
+
+.perso, p {
+    color: white;
+}
+
+.cores, input[type="color"] {
+    margin-bottom: 10px;
+}
+
+.p4,
+.s4,
+.t4 {
+   display: flex;
+    width: 460px;
+}
+
+.aniv {
+    background: #2D3136;
+    text-align: center;
+    border-radius: 5px;
+    margin: 1%;
+}
+
+.inf {
+    background: #2D3136;
+    text-align: center;
+    border-radius: 5px;
+    margin: 1%;
+}
+
+.form {
+    background: #2D3136;
+    text-align: center;
+    border-radius: 5px;
+    margin: 1%;
+}
+
+.casam {
+    background: #2D3136;
+    text-align: center;
+    border-radius: 5px;
+    margin: 1%;
+}
+
+.p4 img {
+    padding: 0.5rem;
+}
+
+.bb {
+    background: #2D3136;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.pan {
+    background: #2D3136;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.carn {
+    background: #2D3136;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.pasc {
+    background: #2D3136;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.s4 img {
+    padding: 0.5rem;
+}
+
+.joao {
+    background: #2D3136;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.hall {
+    background: #2D3136;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.natal {
+    background: #2D3136;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.outros {
+    background: #2D3136;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.t4 img {
+    padding: 0.5rem;
+}
+
+.tema {
+    display: flex;
+    gap: 15rem;
+}
+
+.dados {
+
+}
+
+.nome {
+    margin-top: 5px;
+}
+
+.nome, input[class="nono"] {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.num {
+    width: 100%;
+}
+
+.email {
+    margin-top: 10px;
+}
+
+.email, input[class="ema"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.tel {
+    margin-top: 10px;
+}
+
+.tel, input[class="tele"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.acordo01 {
+    margin-top: 20px;
+}
+
+.acordo01,
+.acordo02,
+.acordo03 {
+    color: white;
+}
+
+
+

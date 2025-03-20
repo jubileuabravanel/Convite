@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>FestVite</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<main>
+    <div class="conteudo">
+        <div class="esquerda">
+
+            <div class="bolo">
+                <img class="festa" src="./icons/festa.jpg" width="400" height="728" alt="Imagem de festa">
+            </div>
+
+            <div class="tudo">
+                <div class="logo">
+                    <img src="./icons/confete.png" width="50" height="50" alt="Ícone de confete">
+                </div>
+                <div class="frases">
+                    <h2>FestVite</h2>
+                    <p>Crie um convite digital para seu evento</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="direita">
+            <div class="dir">
+                <div class="crie">
+                    <h2>Crie seu convite</h2>
+                </div>
+
+                <div class="sobre">
+                    <img src="./icons/calendario.png" width="12" height="12" alt="Ícone de calendário">
+                    Sobre o evento
+                </div>
+
+                <div class="titulo">
+                    <label for="titulo">Título</label>
+                    <input class="tit" type="text" name="tit" placeholder="Título" id="titulo">
+                </div>
+
+                <div class="ini">
+                    <div class="inicio">
+                        <label for="inicio">Início</label>
+                        <input class="in" type="datetime-local" name="inicio" id="inicio">
+                    </div>
+
+                    <div class="fim">
+                        <label for="fim">Fim</label>
+                        <input class="fm" type="datetime-local" name="fim" id="fim">
+                    </div>
+                </div>
+
+                <div class="escolha">
+                    <div class="tipo">
+                        <label for="tipo">Tipo</label>
+                        <select class="ti" name="tipo" id="tipo">
+                            <option>Presencial</option>
+                            <option>Online</option>
+                        </select>
+                    </div>
+
+                    <div class="local">
+                        <label for="local">Localização</label>
+                        <input class="loc" type="url" name="local" placeholder="URL da localização" id="local">
+                    </div>
+                </div>
+
+                <div class="descricao">
+                    <label for="descricao">Descrição</label>
+                    <input class="desc" type="text" placeholder="Descrição" name="descricao" id="descricao">
+                </div>
+
+                <div class="Perso">
+                    <div class="p">
+                        <img src="" alt="">
+                        <h3>Personalização</h3>
+                        <p>Cor principal</p>
+                    </div>
+
+                    <div class="cores">
+                        <label for="cores"></label>
+                        <input type="color" name="cores" id="cores">
+                    </div>
+
+                    <div class="tutu">
+                        <div class="p4">
+                            <div class="aniv">
+                                <img src="./img/aniversario.jfif" width="126" height="64" alt="">
+                                <p>Aniversário</p>
+                            </div>
+
+                            <div class="inf">
+                                <img src="./img/infantil.jfif" width="126" height="64" alt="" >
+                                <p>Infantil</p>
+                            </div>
+
+                            <div class="form">
+                                <img src="./img/formatura.jfif" width="126" height="64" alt="">
+                                <p>Formatura</p>
+                            </div>
+
+                            <div class="casam">
+                                <img src="./img/casamento.jfif" width="126" height="64" alt="">
+                                <p>Casamento</p>
+                            </div>
+                        </div>
+
+                        <div class="s4">
+                            <div class="bb">
+                                <img src="./img/bb.jfif" width="126" height="64" alt="">
+                                <p>Chá de bebê</p>
+                            </div>
+
+                            <div class="pan">
+                                <img src="./img/panela.jfif" width="126" height="64" alt="" >
+                                <p>Chá de panela</p>
+                            </div>
+
+                            <div class="carn">
+                                <img src="./img/carnaval.jfif" width="126" height="64" alt="">
+                                <p>Carnaval</p>
+                            </div>
+
+                            <div class="pasc">
+                                <img src="./img/pascoa.jfif" width="126" height="64" alt="">
+                                <p>Páscoa</p>
+                            </div>
+                        </div>
+
+                        <div class="t4">
+                            <div class="joao">
+                                <img src="./img/joao.jfif" width="126" height="64" alt="">
+                                <p>São joao</p>
+                            </div>
+
+                            <div class="hall">
+                                <img src="./img/hallow.jfif" width="126" height="64" alt="" >
+                                <p>Halloween</p>
+                            </div>
+
+                            <div class="natal">
+                                <img src="./img/natal.jfif" width="126" height="64" alt="">
+                                <p>Natal</p>
+                            </div>
+
+                            <div class="outros">
+                                <img src="./img/outros.jfif" width="126" height="64" alt="">
+                                <p>Outros</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="tema">
+                    <div class="luz">
+                        <label for="tema_escuro">Escuro</label>
+                        <input type="checkbox" name="tema_escuro" id="tema_escuro">
+                    </div>
+
+                    <div class="capa">
+                        <label for="foto_capa">Foto da capa</label>
+                        <input type="file" name="foto_capa" id="foto_capa">
+                    </div>
+                </div>
+
+                <div class="dados">
+                    <div>
+                        <img src="" alt="">
+                        <h5>Dados para contato</h5>
+                    </div>
+
+                    <div class="nome">
+                        <label for="nome_completo">Nome</label>
+                        <input class="nono" type="text" placeholder="Nome Completo" name="nome_completo" id="nome_completo">
+                    </div>
+
+                    <div class="email">
+                        <label for="email">E-mail</label>
+                        <input class="ema" placeholder="E-mail" type="email" name="email" id="email">
+                    </div>
+
+                    <div class="tel">
+                        <label for="telefone">Telefone</label>
+                        <input class="tele" placeholder="(82) 0000-0000" type="tel" name="telefone" id="telefone">
+                    </div>
+
+                </div>
+
+                <div class="acordo01">
+                    <input type="checkbox" name="termos" id="termos">
+                    Li e concordo com os Termos e Condições e com a Política de Privacidade
+                </div>
+
+                <div class="acordo02">
+                    <input type="checkbox" name="email_promo" id="email_promo">
+                    Aceito receber atualizações e promoções por e-mail
+                </div>
+
+                <div class="acordo03">
+                    <input type="checkbox" name="sms_promo" id="sms_promo">
+                    Aceito receber atualizações e promoções por SMS
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>

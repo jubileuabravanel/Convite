@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festivite - Criar Convite</title>
+    <link rel="stylesheet" href="teste.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <aside class="preview">
+        <h1>Festivite</h1>
+        <p>Crie um convite digital para o seu evento</p>
+        <img src="cake.png" alt="Bolo de aniversário com vela">
+    </aside>
+    <main class="form-container">
+        <h2>Crie seu convite</h2>
+        <form>
+            <fieldset>
+                <legend>Sobre o evento</legend>
+                <label for="titulo">Título</label>
+                <input type="text" id="titulo" placeholder="Nome do evento">
+
+                <label for="inicio">Início</label>
+                <input type="date" id="inicio">
+
+                <label for="fim">Fim</label>
+                <input type="date" id="fim">
+
+                <label for="tipo">Tipo</label>
+                <select id="tipo">
+                    <option>Presencial</option>
+                    <option>Online</option>
+                </select>
+
+                <label for="descricao">Descrição</label>
+                <textarea id="descricao" placeholder="Escreva detalhes do evento"></textarea>
+            </fieldset>
+
+
+
+            <fieldset>
+                <legend>Dados para contato</legend>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="exemplo@email.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" placeholder="(99) 99999-9999">
+            </fieldset>
+
+            <button type="submit">Gerar convite</button>
+        </form>
+
+        <div class="teucu">
+            <label for=""></label>
+            <input type="text" name="" id="">
+        </div>
+
+
+        <div class="container">
+            <input type="checkbox" id="meuCheckbox" class="checkbox-oculto">
+            <label for="meuCheckbox" class="div-clicavel">
+                <img src="./Pagina%20Principal/img/aniversario.jfif" width="140" height="64" alt="Imagem Clicável">
+            </label>
+        </div>
+
+    </main>
+</div>
+</body>
+</html>
