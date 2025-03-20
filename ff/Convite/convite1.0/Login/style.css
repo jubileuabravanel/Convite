@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #131516;
+}
+
+.logo img{
+    position: relative;
+    right: 55px;
+    top: 35px;
+}
+
+.logo h1 {
+    color: deeppink;
+    font-family: "Times New Roman";
+    position: relative;
+    left: 25px;
+    top: 5px;
+
+}
+
+label {
+    display: block;
+}
+
+label[for="idcpf"],
+label[for="idsenha"] {
+    color: white;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+
+}
+
+.entrar button[type="submit"] {
+    width: 150px;
+    height: 35px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.criar a {
+    color: blue;
+}
+
+.criar {
+    color: white;
+}
+
+.cpf, .senha {
+    padding: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 220px;
+    height: 25px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+
+

@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.post {
+    background-color: #131516;
+    max-width: 30%;
+    height: 400px ;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 17rem;
+}
+
+label {
+    display: block;
+}
+
+.crie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dh input[type="datetime-local"] {
+    display: flex;
+}

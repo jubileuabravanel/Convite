@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #29292E;
+}
+
+.dir {
+    background-color: #212427;
+    max-width: 80%;
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.conteudo {
+    display: flex;
+}
+
+.esquerda {
+    width: 50%;
+}
+
+.direita {
+    width: 50%;
+}
+
+.bolo {
+    padding: 10px;
+}
+
+.festa {
+    border-radius: 10px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 46rem;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.frases {
+    position: relative;
+    bottom: 46rem;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+.frases h2 {
+    color: deeppink;
+}
+
+.frases p {
+    color: white;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.titulo {
+    padding: 5px;
+}
+
+.form {
+    display: flex;
+    gap: 5px;
+}
+
+.inicio,
+.fim {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.escolha {
+    display: flex;
+    gap: 10px;
+}
+
+#01,
+#02 {
+    display: flex;
+    flex-direction: column;
+    background: #131516;
+}
+
+
+
